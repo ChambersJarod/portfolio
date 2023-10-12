@@ -90,6 +90,14 @@ nav ul li a:hover {
     padding-bottom: 40px;
 }
 
+@media (max-width: 800px) {
+    #portfolio {
+        display: flex;
+        flex-direction: row;
+        flex-direction: column;
+    }
+}
+
 .portfolio-item {
     flex: 1;
     margin: 20px;
